@@ -1,0 +1,284 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #edece8 url(images/bg_body.jpg) center top no-repeat; 
+}
+
+.main {
+	width: 970px;
+	margin: 0 auto;
+}
+
+.header {
+	overflow: hidden;
+	padding: 7px 14px;
+	height: 235px;
+}
+
+.header h2 {
+	font: 24px "Century Gothic";
+	color: #3f282f;
+	float: left;
+}
+
+.header a {
+	font: 26px "Century Gothic";
+	color: #716b5b;
+	text-decoration: none;
+	float: right;
+}
+
+.header a span {
+	color: #a73700;
+}
+
+.content-main {
+	overflow: hidden;
+	background: #f7f7f7;
+	border: 1px solid #fff;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+}
+
+.menu {
+	list-style: none;
+	background: #3f282f;
+	overflow: hidden;
+	height: 56px;
+	border-radius: 15px 15px 0 0;
+	-moz-border-radius: 15px 15px 0 0;
+	-webkit-border-radius: 15px 15px 0 0;
+}
+
+.menu li {
+	float: left;
+	background: url(images/bg_menu.jpg) left  no-repeat;
+	padding: 20px 35px;
+}
+
+.menu li:first-child {
+	background: none;
+}
+
+.menu li a {
+	color: #fff;
+	text-decoration: none;
+	font: 18px "Century Gothic";
+}
+
+.menu li a:hover {
+	text-decoration: underline;
+}
+
+.search-main {
+	float: right;
+	overflow: hidden;
+	margin: 2px 25px 0 0;
+}
+
+.search-txt {
+	width: 225px;
+	height: 27px;
+	background: #f7f7f7;
+	border: 1px solid #fff;
+	border-radius: 1px;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	margin: 0px 20px 0px 0px;
+}
+
+.search-btn {
+	position: relative;
+	top: 10px;
+}
+
+.my-slider {
+	margin: 15px 20px -10px;
+	overflow: hidden;
+}
+
+.unslider-nav {
+	position: relative;
+	top: -20px;
+}
+
+.content {
+	width: 685px;
+	float: left;
+	margin: 0 0 0px 20px;
+	padding-bottom: 15px;
+}
+
+.post-main {
+	background: #f5f5f5;
+	border: 1px solid #e7e2e3;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+.post-main h1 {
+	height: 40px;
+	background: #e2e0e1;
+	color: #3f282f;
+	border-radius: 8px 8px 0 0 ;
+	-moz-border-radius: 8px 8px 0 0 ;
+	-webkit-border-radius: 8px 8px 0 0 ;
+	padding: 0px 0px 0px 20px;
+}
+
+.post-main h1 a {
+	font: normal 24px Verdana;
+	color: #3f282f;
+	text-decoration: none;
+}
+
+.post-main h1 a:hover {
+	text-decoration: underline;
+}
+
+.post-main h1 span {
+	font: normal 12px Verdana;
+	color: #b8a6ab;
+}
+
+.post {
+	margin: 8px 0px 0px 15px;
+}
+
+.imagestyle {
+	float: left;
+	border: 1px solid;
+	margin: 0px 10px 0 0 ;
+}
+
+.post p {
+	font: normal 12px Verdana;
+	color: #000000;
+	margin: 10px 10px 0 0px;
+}
+
+.post p a {
+	font: 12px Verdana;
+	color: #3f282f;
+}
+
+.post p a:hover {
+	text-decoration: none;
+}
+
+.post img+p+p+p {
+	margin: 15px 0px 19px 0px;
+}
+
+.sidebar {
+	float: right;
+	width: 222px;
+	margin: 20px 20px 0 0;
+}
+
+.viget {
+	background: #e7e2e3;
+	border: 1px solid #d7d3d4;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+}
+
+.viget ul {
+	list-style: none;
+	padding: 25px 15px;
+}
+
+.viget ul li {
+	padding: 5px 17px;
+	border-bottom: 1px solid #c8bbbd;
+	border-top: 1px solid #fff;
+}
+
+.viget ul li:first-child {
+	border-top: none;
+}
+
+.viget ul li:last-child {
+	border-bottom: none;
+}
+
+.viget ul li a {
+	font: 14px "Century Gothic";
+	color: #000;
+}
+
+.viget ul li a:hover {
+	text-decoration: none;
+}
+
+.viget h2{
+	background: #3f282f;
+	font: 18px "Century Gothic";
+	color: #fff;
+	text-align: center;
+	border-radius: 8px 8px 0 0;
+	-moz-border-radius: 8px 8px 0 0;
+	-webkit-border-radius: 8px 8px 0 0;
+	padding: 5px 0;
+}
+
+.footer {
+	overflow: hidden;
+	margin: 30px 0 23px 0;
+}
+
+.cpy {
+	float: left;
+	margin: 0 -20px 0 0;
+}
+
+.cpy a {
+	font: 26px "Century Gothic";
+	color: #b5b3aa;
+	text-decoration: none;
+}
+.cpy a span {
+	color: #d6aea3;
+}
+
+.cpy p {
+	font: 14px Verdana; color: #797977;
+}
+
+.menu-foot {
+	float: left;
+	margin: 0 0 0 185px;
+	line-height: 1;
+	
+}
+
+.menu-foot h2 {
+	font: normal 24px/1 "Century Gothic";
+	color: #a59e9e;
+}
+
+.menu-foot ul {
+	list-style: none;
+}
+
+.menu-foot li {
+	color: #979693;
+}
+
+.menu-foot li a {
+	font: 14px "Century Gothic";
+	color: #979693;
+	line-height: 1;
+}
+
+.menu-foot li a:hover {
+	text-decoration: none;
+}
